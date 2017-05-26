@@ -27,5 +27,7 @@ It is always possible to find architectures which are particularly suited for a 
 Some of the repositories that would be helpful and which helped us in our experiments/code (big thanks!) - 
 
 https://github.com/igul222/improved_wgan_training
+
 https://github.com/wiseodd/generative-models/tree/master/GAN
+
 https://github.com/openai/improved-gan/tree/master/inception_score
