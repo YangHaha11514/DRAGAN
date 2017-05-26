@@ -22,7 +22,7 @@ DRAGAN came up with the novel idea of imposing local constraints, motivated from
 
 Essentially, both of these constraints mitigate the issue of local NE. The idea of using smoothing to make games more tractable is very old. We cite works of Nash from 1950s. To convince yourself that both these ideas are more general, rather than being restricted to a specific divergence measure or a loss function, I suggest trying out different generator functions, f-divergences (or) imposing gradient constraints in a variety of other ways possible. They all will improve stability, albeit to different extents. We give motivation for our final choice in the section 4.2 of our paper. 
 
-We highly recommend our BogoNet metric to test for stability of different training procedures. It is inspired from WGAN and improved WGAN papers where they use 4-5 architectures that are known to hard for vanilla GAN. We scaled up and generalized this experiment, we show results in our paper using a set of 150 different architectures. We pick them randomly to remove any biases.
+We highly recommend our BogoNet metric to test for stability of different training procedures. It is inspired from WGAN and improved WGAN papers where they use 4-5 architectures that are known to be hard for vanilla GAN. We scaled up and generalized this experiment, we show results in our paper using a set of 150 different architectures. We pick them randomly to remove any biases.
 
 
 
