@@ -24,7 +24,8 @@ Essentially, both of these constraints mitigate the issue of local NE. The idea 
 
 It is always possible to find architectures which are particularly suited for a specific algorithm. So, we highly recommend our BogoNet metric to test for stability of different training procedures. It is inspired from WGAN and improved WGAN papers where they use 4-5 architectures that are known to be hard for vanilla GAN. We scaled up and generalized this experiment, we show results in our paper using a set of 150 different architectures. We pick them randomly to remove any biases.
 
+Some of the repositories that would be helpful and which helped us in our experiments/code (big thanks!) - 
 
-
-
-
+https://github.com/igul222/improved_wgan_training
+https://github.com/wiseodd/generative-models/tree/master/GAN
+https://github.com/openai/improved-gan/tree/master/inception_score
